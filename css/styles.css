@@ -1,3 +1,23 @@
+body {
+  color: #2E2F42;
+font-family: Roboto, Raleway, sans-serif ;
+}
+ 
+a {
+text-decoration: none;
+}
+
+button {
+  cursor: pointer
+}
+
+ul,
+ol{
+  list-style: none;
+}
+
+.section {}
+
 /**
   |============================
   | Header
@@ -5,32 +25,219 @@
 */
 .header {}
 
-.header-nav {}
+.header-nav {
+
+}
 
 .logo {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2E2F42;
+  font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
 
 .logo-web {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5
+  font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4D5AE5
 }
 
-.nav-link {}
+.header-list {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-item {}
+
+.header-link {}
+
+.header-address {
+  
+}
+
+.address-item {
+  
+}
+
+.address-link {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/**
+  |============================
+  | Main 
+  |============================
+*/
+
+.main {}
+
+.section {}
+
+/**
+  |============================
+  | Hero
+  |============================
+*/
+
+.hero {
+  background: #2E2F42;
+}
+
+.hero-title {
+font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero-btn {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/**
+  |============================
+  | Peculiarities
+  |============================
+*/
+
+.peculiarities {}
+
+.peculiarities-title {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.peculiarities-list {}
+
+.peculiarities-item {}
+
+.peculiarities-caption {}
+
+.peculiarities-parph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/**
+  |============================
+  | Activity
+  |============================
+*/
+
+.activity {}
+
+.activity-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.activity-list {}
+
+.activity-item {}
+
+.activity-img {}
+
+/**
+  |============================
+  | Team
+  |============================
+*/
+
+.team {
+  
+}
+
+.team-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.tean-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-caption {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-parph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+ .footer {
+  background: #2E2F42;
+ }
+
+ .footer-logo {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+ }
+
+ .footer-text {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+ }
