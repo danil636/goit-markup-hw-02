@@ -1,10 +1,10 @@
 :root {
       --brand-color: #2e2f42;
     }
-body {
+.body {
   background-color:#FFFFFF
   color: #434455;
-font-family: Roboto, sans-serif ;
+  font-family: Roboto, sans-serif ;
 }
  
 a {
