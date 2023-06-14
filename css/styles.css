@@ -45,6 +45,7 @@ ol{
 
 .link{
 text-decoration: none
+ color: #2e2f42;
 }
 
 .link:hover,
@@ -71,13 +72,13 @@ text-decoration: none
     list-style: none
 }
 
-.header-item {
+.header-list {
   color: #2e2f42;
 }
 
-.header-link {}
+.header-item {}
 
-.header-address {
+.address-link {
   
 }
 
