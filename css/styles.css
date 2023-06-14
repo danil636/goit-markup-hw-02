@@ -20,6 +20,12 @@ ol{
   list-style: none;
 }
 
+/**
+  |============================
+  | Header
+  |============================
+*/
+
 .logo{
   font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -83,6 +89,12 @@ color: #434455;
   color: #404bbf;
 }
 
+/**
+  |============================
+  | Block 1
+  |============================
+*/
+
 .hero{
 background-color: #2e2f42;
 }
@@ -113,6 +125,12 @@ background-color: #404BBF;
 background-color: #404BBF;
 }
 
+/**
+  |============================
+  | Block 2
+  |============================
+*/
+
 .peculiarities-caption {
   font-weight: 500;
   font-size: 20px;
@@ -126,6 +144,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+/**
+  |============================
+  | Block 3
+  |============================
+*/
+
 .activity-title{
   font-size: 36px;
   line-height: 1.11;
@@ -134,6 +158,12 @@ letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+/**
+  |============================
+  | Block 4
+  |============================
+*/
 
 .team{
   background-color: #F4F4FD;
@@ -165,4 +195,35 @@ background-color: #FFFFFF;
   letter-spacing: 0.02em;
 }
 
+/**
+  |============================
+  | Footer
+  |============================
+*/
 
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.link {
+  text-decoration: none
+}
+
+.footer-logo-studio {
+color: #f4f4fd;
+}
+
+.footer-parph {
+  line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
