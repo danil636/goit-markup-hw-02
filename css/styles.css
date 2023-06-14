@@ -1,7 +1,7 @@
 :root {
       --brand-color: #2e2f42;
     }
-.body {
+body {
   background-color:#FFFFFF
   color: #434455;
   font-family: Roboto, sans-serif ;
@@ -44,7 +44,12 @@ ol{
 }
 
 .link{
+text-decoration: none
+}
 
+.link:hover,
+.link:focus {
+ color: 404bbf; 
 }
 
 .logo-studio {
@@ -62,7 +67,7 @@ ol{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
     list-style: none
 }
 
