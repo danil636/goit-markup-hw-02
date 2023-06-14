@@ -42,13 +42,6 @@ ol{
 }
 
 .logo-studio{
-font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2E2F42;
 }
 
@@ -244,14 +237,11 @@ color: #f4f4fd;
   background-color: #F4F4FD;
 }
 
-.portfolio-btn:hover {
- color: #FFFFFF;
-background-color: #404BBF
-}
-
+.portfolio-btn:hover,
 .portfolio-btn:focus {
  color: #FFFFFF;
 background-color: #404BBF
 }
+
 
 
