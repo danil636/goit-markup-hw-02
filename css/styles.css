@@ -71,7 +71,9 @@ text-decoration: none
     list-style: none
 }
 
-.header-item {}
+.header-item {
+  color: #2e2f42;
+}
 
 .header-link {}
 
