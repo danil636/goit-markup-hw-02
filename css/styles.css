@@ -2,14 +2,14 @@
       --brand-color: #2e2f42;
     }
 body {
-  background-color:#FFFFFF
-  color: #434455;
   font-family: Roboto, sans-serif ;
 }
- 
-a {
-  text-decoration: none;
+
+.page{
+  color: #434455;
+  background-color: #FFFFFF;
 }
+
 
 button {
   cursor: pointer
@@ -20,3 +20,43 @@ ol{
   list-style: none;
 }
 
+.logo{
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-studio{
+font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2E2F42;
+}
+
+.header-item{
+  font-weight: 500
+  line-height: 1.5
+  letter-spacing: 0.02em
+}
+
+.header-link{
+color: #2e2f42;
+}
+
+.header-item:hover,
+.header-item:focus {
+color: #404bbf;
+}
