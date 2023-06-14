@@ -87,7 +87,7 @@ color: #434455;
 background-color: #2e2f42;
 }
 
-.peculiarities-title {
+.hero-title {
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -111,4 +111,26 @@ background-color: #404BBF;
 
 .hero-btn:focus {
 background-color: #404BBF;
+}
+
+.peculiarities-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.peculiarities-parph {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.activity-title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
