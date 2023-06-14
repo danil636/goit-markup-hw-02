@@ -64,3 +64,22 @@ font-family: 'Raleway', sans-serif;
 .header-link:focus {
   color: #404bbf;
 }
+
+.header-address {
+  font-style: normal;
+}
+
+.address-link {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.address-link:hover {
+ color: #404bbf;
+}
+
+.address-link:focus {
+  color: #404bbf;
+}
+
