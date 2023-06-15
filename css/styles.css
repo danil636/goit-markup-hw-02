@@ -61,7 +61,7 @@ ol{
   color: var(--brand-links-hf);
 }
 .header-link:focus {
-  color: var(--brand-links-hf)
+  color: var(--brand-links-hf);
 }
 
 .header-address {
